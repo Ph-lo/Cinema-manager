@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#home {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -4px;
+}
+
+#add {
+    margin-bottom: -6px;
+}
+
+nav {
+    margin-bottom: 20px;
+    background-color: rgb(197, 194, 163);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+.history_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tabs {
+    display: flex;
+    width: 602px;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.tab {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid beige;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    padding-top: 20px;
+}
+
+.tab a {
+    color: beige;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(245, 245, 220, 0.685);
+}
+
+#user_infos {
+    background-image: url('./icons/Ticket.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 583px;
+    height: 220px;
+    margin: auto;
+    position: relative;
+    color: black;
+    margin-top: 70px;
+}
+
+#ticker_container {
+    width: 520px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ticket {
+    width: 520px;
+    padding-left: 30px;
+}
+
+#ticket_part {
+    font-family: 'Source Code Pro', monospace;
+    width: 130px;
+}
+
+#modify_form {
+    border: 1px solid beige;
+    border-radius: 5px;
+    width: 550px;
+}
+
+#member_nav {
+    width: 24px;
+    margin-top: 80px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: beige;
+    margin-left: -10px;
+}
+
+#modified {
+    width: 180px;
+    margin: auto;
+    border-top: 1px solid beige;
+    border-bottom: 1px solid beige;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(245, 245, 220, 0.199);
+}
+
+#name {
+    border-bottom: 1px solid black;
+}
+
+#name em {
+    font-weight: normal;
+    font-style: normal;
+}
+
+#user_infos h3 {
+    font-family: 'Mulish', sans-serif;
+}
+
+#container {
+    width: 600px;
+    margin: auto;
+    border: 1px solid beige;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.forms {
+    padding: 10px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#small_add {
+    width: 18px;
+    height: 18px;
+    margin-bottom: -4px;
+    background-color: beige;
+    border-radius: 50px;
+}
+
+.forms input,
+.forms select {
+    margin-top: 5px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 2px;
+}
+
+.forms label {
+    width: 150px;
+    display: inline-block;
+}
+
+.number_limit {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.search_submit {
+    margin: 20px 0 0 0;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#modify_btn {
+    margin-top: 20px;
+}
+
+hr {
+    margin: 30px 15px 30px 15px;
+}
+
+#container_results {
+    width: 70%;
+    margin: auto;
+}
+
+#container_results table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+table th {
+    border-bottom: 1px solid beige;
+}
+
+.form_p {
+    display: inline;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(105, 190, 190, 0.281);
+}
+
+.search_title {
+    display: flex;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.search_title img {
+    width: 32px;
+    height: 32px;
+    margin: 15px 20px 0 0;
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.pagination {
+    width: 350px;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+.pages {
+    margin-right: 8px;
+}
+
+#first {
+    margin-right: 18px;
+    text-decoration: underline;
+}
+
+#last {
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+#calendar_container {
+    background-image: url('./icons/CalendarBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+
+#calendar_container h3 {
+    width: 250px;
+    margin: -60px auto 90px 65px;
+    text-align: center;
+    color: beige;
+}
+
+#calendar {
+    width: 420px;
+    /* margin: 130px auto auto auto; */
+}
+
+#form_container {
+    width: 420px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+#calendar_form {
+    width: 85%;
+    color: black;
+}
+
+#calendar_form input,
+#calendar_form select {
+    background-color: white;
+}
+
+#connection_section {
+    width: 600px;
+    height: 400px;
+    border-bottom: 1px solid beige;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#connection_section form {
+    margin-top: 80px;
+}
+
+#alert_container {
+    width: 100px;
+    margin: 75px auto auto auto;
+}
+
+#alert_container a {
+    border: 1px solid beige;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+#beware p {
+    text-align: center;
+    margin-top: 75px;
+    text-decoration: underline;
+}
+
+footer {
+    width: 600px;
+    margin: 10px auto auto auto;
+}
